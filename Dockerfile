@@ -1,5 +1,3 @@
-# Dockerfile
-
 FROM busybox:ubuntu-14.04
 
 COPY ./bin/jq /bin/jq
