@@ -2,6 +2,6 @@
 # ==========
 
 FROM busybox:ubuntu-14.04
-MAINTAINER Chao Huang <chao@realguess.net>
 
 COPY ./bin/jq /bin/jq
+COPY groovy-all-2.3.3.jar /groovy-all-2.3.3.jar
